@@ -2,6 +2,14 @@ Used Cars Inventory - Car Dealership Database
 
 id - UNSIGNED INT - PRIMARY KEY (UNIQUE, NOT NULL)
 
-make - VARCHAR(50) - NOT NULL
-model - VARCHAR(100) - NOT NULL
-year - YEAR - NOT NULL
+make            -VARCHAR(50)        -NOT NULL
+model           -VARCHAR(100)       -NOT NULL
+year            -YEAR               -NOT NULL
+
+mileage_km      -UNSIGNED INT       -NOT NULL
+transmission    -VARCHAR(30)        -NOT NULL
+fuel_type       -VARCHAR(30)        -NOT NULL
+engine_size_l   -DECIMAL(3,1)       -NULL
+horsepower      -UNSIGNED SMALLINT  -NULL
+num_doors       -TINYINT            -NULL
+num_seats       -TINYINT            -NULL
