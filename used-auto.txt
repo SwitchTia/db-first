@@ -1,0 +1,7 @@
+Used Cars Inventory - Car Dealership Database
+
+id - UNSIGNED INT - PRIMARY KEY (UNIQUE, NOT NULL)
+
+make - VARCHAR(50) - NOT NULL
+model - VARCHAR(100) - NOT NULL
+year - YEAR - NOT NULL
